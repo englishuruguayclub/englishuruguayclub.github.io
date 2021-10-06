@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  footer {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  section {
+    padding: 1rem;
+  }
+  
+  header {
+  
+  }
+  
+  h1 {
+  
+  }
+  
+  h2 {
+  
+  }
+  
+  h3 {
+  
+  }
+  
+  p {
+  
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 4px;
+    width: 350px;
+  }
+  
+  .card h3 {
+  
+  }
+  
+  .card p {
+  
+  }
