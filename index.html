@@ -4,6 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>English Club Uruguay</title>
+    <meta property="og:url" content="https://englishuruguayclub.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="English Club Uruguay" />
+    <meta property="og:description" content="Un club de conversación con gente como vos" />
+    <meta property="og:image" content="./img/englishclub.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -11,14 +16,21 @@
   </head>
   <body>
     <header>
-
+      <div class="content-box">
+        <h1>English club Uruguay</h1>
+      </div>
     </header>
     <main>
       <section id="main">
-        <img src="" alt="English club Uruguay">
-        <h2>English club Uruguay</h2>
-        <h3>Practicá tu inglés!</h3>
-        <p>Un club de conversación con gente como vos</p>
+        <div class="img-box">
+          <img class="logo" src="./img/englishclub.jpg" alt="English club Uruguay">
+        </div>
+        <div class="presentation-box">
+          <h3>Practicá tu inglés!</h3>
+          <p>Un club de conversación con gente como vos</p>
+          <p>En el English Club tenemos distintos grupos de conversación en inglés para practicar y mejorar tus habilidades.</p>
+          <p>Son grupos distendidos distendidos en los cuales la "excusa" para hablar en inglés la eligen sus miembros, pueden ser películas, libros, artículos, noticias u otras cosas.</p>
+        </div>
       </section>
       <section id="cinephiles">
         <h2>English Club for cinephiles or “movie buffs”</h2>
@@ -51,7 +63,8 @@
           </article>
           <article class="card">
             <h3>Victoria</h3>
-            <p></p>
+            <p>Cuando Sofi me contó que estaba moderando un Club de cinéfilos en inglés me dije "claro! La forma perfecta de matar dos pájaros de un tiro: ver al menos una película por semana y practicar mi inglés!" Me pareció una idea genial y me uní enseguida</p>
+            <p>Me pareció una idea genial pero el grupo era de tarde y yo solo podía en las mañanas. A la semana Sofi me escribió para decirme que se iba a abrir un grupo en la mañana. </p>
           </article>
           <article class="card">
             <h3>Rodrigo</h3>
@@ -65,18 +78,18 @@
       </section>
       <section id="contact">
         <h2>Contact</h2>
-          <p></p>
-        </div>
+        <p>Si te interesa sumarte al club, podés contactarme por MD de <a href="https://www.instagram.com/englishuruguayclub/">Instagram</a> o puedes mandarme un mail a <span id="replace">javascript is not enabled, please use the contact form.</span></p>
       </section>
     </main>
     <footer>
-      <p> Be part of the community!</p>
-      <ul>
-        <li><a href="https://www.instagram.com/englishuruguayclub/"></a></li>
-      </ul>
-    </footer>
+      <div class="content-box">
+        <p> Be part of the community!</p>
+      </div>
+  </footer>
   </body>
 </html>
 <script>
-
+  var innerEmail = document.getElementById('replace')
+  const emailE = ('msofiagarcia.o@' + 'gmail.com');
+  innerEmail.innerHTML = '<a href="mailto:' + emailE + '">' + emailE + '</a>';
 </script>
